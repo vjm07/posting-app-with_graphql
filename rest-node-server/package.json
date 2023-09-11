@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-complete-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/udemy-course-nodejs-complete"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express-graphql": "^0.12.0",
+    "express-validator": "^7.0.1",
+    "graphql": "^16.8.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.4",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.7.2",
+    "validator": "^13.11.0"
+  }
+}
